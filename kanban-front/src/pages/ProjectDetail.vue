@@ -26,7 +26,7 @@
         <draggable
           v-model="project.boards"
           @end="onBoardDragEnd"
-          :group="{ name: 'boards', pull: 'clone', put: false }"
+          :group="{ name: 'boards', pull: false, put: false }"
           :animation="200"
           ghost-class="ghost-board"
           class="flex gap-4 items-start draggable-container"
